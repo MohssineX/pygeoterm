@@ -81,6 +81,8 @@ The project will not receive new features. Maintenance only.
 ## 🐱 Special Thanks
 
 A special thanks to mimi — the legendary, the great, the gentle cat.
+
+
 ---
 
 Copyright (C) 2026 MultiRight — https://github.com/MultiRight
