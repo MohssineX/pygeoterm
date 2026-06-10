@@ -70,7 +70,7 @@ To display the help information:
 --help
 ```
 
-At the end of each session, type `reset` to restart or `exit` to quit the program.
+At the end of each session, type `r` to restart or `q` to quit the program.
 
 ---
 
