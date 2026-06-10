@@ -6,7 +6,10 @@
 
 
 import math
+import os
 
+# Enable ANSI escape code support on Windows terminal
+os.system("")
 
 # color variables
 
