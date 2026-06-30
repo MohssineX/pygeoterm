@@ -45,19 +45,19 @@ while uprunning :
             print("\033c" , end="")
         
             # Welcome to the user
-            print(f"{color_light_blue}====================Welcome to PyGeoterm===================={color_reset}")
+            print(f"{color_light_blue}====================Welcome to pygeoterm===================={color_reset}")
             print()
         
             # Holds the active selection from the main menu
         
-            user_q = input(f"{color_light_blue}Press enter to start use PyGeoterm or enter '--help' to help for use PyGeoterm : {color_reset}")
+            user_q = input(f"{color_light_blue}Press enter to start use pygeoterm or enter '--help' to help for use pygeoterm : {color_reset}")
             print()
             # help menu
         
             if user_q == "--help" :
                 print(f"{color_green}Definition of the tool :{color_reset}")
                 print()
-                print(f"{color_orange}PyGeoterm is a terminal calculator to compute geometric areas and handle errors.{color_reset}")
+                print(f"{color_orange}pygeoterm is a terminal calculator to compute geometric areas and handle errors.{color_reset}")
                 print()
                 print(f"{color_green}Explanation of error messages : {color_reset}")
                 print()
@@ -245,7 +245,7 @@ while uprunning :
         
         
             # Thank you user
-            print(f"{color_orange}Thank you for using PyGeoterm!{color_reset}")
+            print(f"{color_orange}Thank you for using pygeoterm!{color_reset}")
             print(f"{color_orange}Author : https://github.com/MultiRight{color_reset}")
             print()
         
@@ -279,7 +279,7 @@ while uprunning :
             
         print("\n")
 
-        print(f"{color_orange}Thank you for using PyGeoterm!{color_reset}")
+        print(f"{color_orange}Thank you for using pygeoterm!{color_reset}")
         print(f"{color_orange}Author : https://github.com/MultiRight{color_reset}")
         print()
         print(f"{color_orange}goodbye{color_reset}")
