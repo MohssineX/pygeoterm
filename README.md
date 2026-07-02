@@ -33,6 +33,17 @@ pygeoterm is a lightweight command-line tool that allows users to calculate the 
 
 ---
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mohssine0x/pygeoterm.git
+cd pygeoterm
+```
+
+---
+
 ## Usage
 
 Run the script with Python:
