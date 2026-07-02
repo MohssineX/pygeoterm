@@ -1,5 +1,9 @@
 # mimi is a nice cat 🐱
 
+# github : https://github.com/Mohssine0x
+
+# Copyright (C) 2026 Mohssine0x <https://github.com/Mohssine0x>
+
 # import libraries
 
 import math
@@ -242,6 +246,7 @@ while uprunning :
         
             # Thank you user
             print(f"{color_orange}Thank you for using pygeoterm!{color_reset}")
+            print(f"{color_orange}Author : https://github.com/Mohssine0x{color_reset}")
             print()
         
             # quit or restar the programme
@@ -275,6 +280,7 @@ while uprunning :
         print("\n")
 
         print(f"{color_orange}Thank you for using pygeoterm!{color_reset}")
+        print(f"{color_orange}Author : https://github.com/Mohssine0x{color_reset}")
         print()
         print(f"{color_orange}goodbye{color_reset}")
            
