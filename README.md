@@ -85,6 +85,13 @@ This project is licensed under the **[GNU General Public License v3.0](https://w
 
 ---
 
+## Author
+
+**Mohssine :**
+[ https://github.com/MohssineX](https://github.com/MohssineX)
+
+---
+
 
 ## 🐱 Special Thanks
 
