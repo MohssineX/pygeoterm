@@ -1,87 +1,81 @@
 # pygeoterm
 
-A terminal-based geometric area calculator written in Python.
-
----
-
-## Description
-
-pygeoterm is a lightweight command-line tool that allows users to calculate the area of common geometric shapes directly from the terminal. It is designed to be simple, interactive, and accessible to anyone who needs quick geometric computations without relying on external tools or graphical interfaces.
-
----
+A lightweight terminal application for calculating the area of common geometric shapes directly from the command line.
 
 ## Features
 
-- Calculate the area of seven geometric shapes:
-  - Square
-  - Rectangle
-  - Triangle
-  - Circle
-  - Parallelogram
-  - Trapezoid
-  - Rhombus
-- Color-coded terminal output for better readability
-- Built-in error handling with descriptive error codes
-- Interactive session with reset and exit options
-- No external dependencies beyond the Python standard library
+* Calculate the area of 7 geometric shapes
+* Interactive terminal interface
+* Color-coded output for improved readability
+* Built-in error handling with dedicated error codes
+* Restart or exit the program without relaunching it
+* Pure Python implementation with no external dependencies
 
----
+## Supported Shapes
+
+* Square
+* Rectangle
+* Triangle
+* Circle
+* Parallelogram
+* Trapezoid
+* Rhombus
 
 ## Requirements
 
-- Python 3.x
-
----
+* Python 3.x
 
 ## Installation
-
-Clone the repository:
 
 ```bash
 git clone https://github.com/MohssineX/pygeoterm.git
 cd pygeoterm
 ```
 
----
-
 ## Usage
 
-Run the script with Python:
+Run the program:
 
 ```bash
 python pygeoterm.py
 ```
 
-> **Tip:** If `python` does not work, try:
-> ```bash
-> python3 pygeoterm.py
-> ```
+If your system uses `python3`:
 
-Once launched, follow the on-screen prompts to select a geometric shape and enter the required dimensions. The program will output the calculated area.
+```bash
+python3 pygeoterm.py
+```
 
-To display the help information:
+Once started, select a geometric shape, enter the required dimensions, and the program will calculate and display its area.
+
+## Help Menu
+
+Display the built-in help information:
 
 ```bash
 --help
 ```
 
-At the end of each session, type `r` to restart or `q` to quit the program.
-
----
-
 ## Error Codes
 
-| Code   | Description                                                        |
-|--------|--------------------------------------------------------------------|
-| err101 | Invalid input — letters or symbols were entered instead of numbers |
-| err102 | Invalid shape — the selected choice is not in the geometric menu   |
-| err103 | Invalid action — the input is neither `r` or `q`                   |
+| Code   | Description                                                   |
+| ------ | ------------------------------------------------------------- |
+| err101 | Invalid input (letters or symbols entered instead of numbers) |
+| err102 | Invalid shape selection                                       |
+| err103 | Invalid action (must be `r` or `q`)                           |
+
+## Session Controls
+
+After completing a calculation:
+
+* Type `r` to restart
+* Type `q` to quit
 
 ---
 
 ## License
 
-This project is licensed under the **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)** 
+This project is licensed under the **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)**
 
 ---
 
@@ -91,7 +85,6 @@ This project is licensed under the **[GNU General Public License v3.0](https://w
 [ https://github.com/MohssineX](https://github.com/MohssineX)
 
 ---
-
 
 ## 🐱 Special Thanks
 
