@@ -1,4 +1,4 @@
-# pygeoterm
+# 📏 pygeoterm
 
 A lightweight terminal application for calculating the area of common geometric shapes directly from the command line.
 
