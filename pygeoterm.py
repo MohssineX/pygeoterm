@@ -19,7 +19,7 @@ if sys.platform == "win32":
 
 color_red = "\033[31m"
 color_green = "\033[32m"
-color_orange = "\033[33m"
+color_yellow = "\033[33m"
 color_light_blue = "\033[94m"
 color_pink = "\033[95m"
 color_reset = "\033[0m"
@@ -57,13 +57,13 @@ while uprunning :
             if user_q == "--help" :
                 print(f"{color_green}Definition of the tool :{color_reset}")
                 print()
-                print(f"{color_orange}pygeoterm is a terminal calculator to compute geometric areas and handle errors.{color_reset}")
+                print(f"{color_yellow}pygeoterm is a terminal calculator to compute geometric areas and handle errors.{color_reset}")
                 print()
                 print(f"{color_green}Explanation of error messages : {color_reset}")
                 print()
-                print(f"{color_orange}err101 : Invalid input. (Letters/symbols entered instead of numbers).{color_reset}")
-                print(f"{color_orange}err102 : Invalid shape. (Choice is not in the geometric menu).{color_reset}")
-                print(f"{color_orange}err103 : Invalid action. (Choice is not 'r' or 'q'){color_reset}")
+                print(f"{color_yellow}err101 : Invalid input. (Letters/symbols entered instead of numbers).{color_reset}")
+                print(f"{color_yellow}err102 : Invalid shape. (Choice is not in the geometric menu).{color_reset}")
+                print(f"{color_yellow}err103 : Invalid action. (Choice is not 'r' or 'q'){color_reset}")
                 print()
         
             
@@ -78,14 +78,14 @@ while uprunning :
                 print()
                 print(f"{color_light_blue}Choose a geometric shape to calculate its area : {color_reset}")
                 print()
-                print(f"{color_orange}+----------------------------------------------------------+{color_reset}")
-                print(f"{color_orange}|                 Choose a Geometric Shape                 |{color_reset}")
-                print(f"{color_orange}+----------------------------------------------------------+{color_reset}")
-                print(f"{color_orange}|   [1] - Square         |   [5] - Parallelogram           |{color_reset}")
-                print(f"{color_orange}|   [2] - Rectangle      |   [6] - Trapezoid               |{color_reset}")
-                print(f"{color_orange}|   [3] - Triangle       |   [7] - Rhombus                 |{color_reset}")
-                print(f"{color_orange}|   [4] - Circle         |                                 |{color_reset}")
-                print(f"{color_orange}+----------------------------------------------------------+{color_reset}")
+                print(f"{color_yellow}+----------------------------------------------------------+{color_reset}")
+                print(f"{color_yellow}|                 Choose a Geometric Shape                 |{color_reset}")
+                print(f"{color_yellow}+----------------------------------------------------------+{color_reset}")
+                print(f"{color_yellow}|   [1] - Square         |   [5] - Parallelogram           |{color_reset}")
+                print(f"{color_yellow}|   [2] - Rectangle      |   [6] - Trapezoid               |{color_reset}")
+                print(f"{color_yellow}|   [3] - Triangle       |   [7] - Rhombus                 |{color_reset}")
+                print(f"{color_yellow}|   [4] - Circle         |                                 |{color_reset}")
+                print(f"{color_yellow}+----------------------------------------------------------+{color_reset}")
                 print()
         
                 while running :
@@ -245,8 +245,8 @@ while uprunning :
         
         
             # Thank you user
-            print(f"{color_orange}Thank you for using pygeoterm!{color_reset}")
-            print(f"{color_orange}Author : https://github.com/MohssineX{color_reset}")
+            print(f"{color_yellow}Thank you for using pygeoterm!{color_reset}")
+            print(f"{color_yellow}Author : https://github.com/MohssineX{color_reset}")
             print()
         
             # quit or restar the programme
@@ -256,7 +256,7 @@ while uprunning :
         
                 if user_action == "q" :
                     print()
-                    print(f"{color_orange}goodbye{color_reset}")
+                    print(f"{color_yellow}goodbye{color_reset}")
                     running = False
                     run_more = False
                     uprunning = False
@@ -279,10 +279,10 @@ while uprunning :
             
         print("\n")
 
-        print(f"{color_orange}Thank you for using pygeoterm!{color_reset}")
-        print(f"{color_orange}Author : https://github.com/MohssineX{color_reset}")
+        print(f"{color_yellow}Thank you for using pygeoterm!{color_reset}")
+        print(f"{color_yellow}Author : https://github.com/MohssineX{color_reset}")
         print()
-        print(f"{color_orange}goodbye{color_reset}")
+        print(f"{color_yellow}goodbye{color_reset}")
            
         
         
