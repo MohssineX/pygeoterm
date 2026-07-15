@@ -1,7 +1,7 @@
 # 📏 pygeoterm
 
 ![Python](https://img.shields.io/badge/python-3-blue)
-![License](https://img.shields.io/badge/license-GPL-blue)
+![License](https://img.shields.io/badge/license-GPLv3-blue)
 
 A lightweight terminal application for calculating the area of common geometric shapes directly from the command line.
 
