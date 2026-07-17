@@ -1,4 +1,4 @@
-# 📏 pygeoterm
+# pygeoterm
 
 ![Python](https://img.shields.io/badge/python-3-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
@@ -24,9 +24,16 @@ A lightweight terminal application for calculating the area of common geometric 
 * Trapezoid
 * Rhombus
 
+## Supported Platforms
+
+- Windows
+- Linux
+- macOS
+
 ## Requirements
 
-* Python 3.x
+* Python 3.6 or later
+* Terminal with ANSI escape sequence support
 
 ## Installation
 
@@ -43,7 +50,7 @@ Run the program:
 python pygeoterm.py
 ```
 
-If your system uses `python3`:
+If your system uses `python3` :
 
 ```bash
 python3 pygeoterm.py
@@ -92,3 +99,7 @@ This project is licensed under the **[GNU General Public License v3.0](https://w
 ## 🐱 Special Thanks
 
 A special thanks to mimi — the legendary, the great, the gentle cat.
+
+---
+
+### If you like it, give it a star :)
