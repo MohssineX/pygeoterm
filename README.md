@@ -81,13 +81,6 @@ Display the built-in help information:
 | err102 | Invalid shape selection                                       |
 | err103 | Invalid action (must be `r` or `q`)                           |
 
-## Session Controls
-
-After completing a calculation:
-
-* Type `r` to restart
-* Type `q` to quit
-
 ---
 
 ## License
