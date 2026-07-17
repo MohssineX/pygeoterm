@@ -56,7 +56,14 @@ If your system uses `python3` :
 python3 pygeoterm.py
 ```
 
-Once started, select a geometric shape, enter the required dimensions, and the program will calculate and display its area.
+## How It Works
+
+1. Start the program
+2. Enter a unit of measurement
+3. Choose a geometric shape
+4. Enter the required dimensions
+5. The area is calculated and displayed
+6. Choose to restart the program or quit
 
 ## Help Menu
 
