@@ -9,7 +9,7 @@ A lightweight terminal application for calculating the areas of common geometric
 
 * Calculates the area of 7 common geometric shapes
 * Built-in help menu (`--help`)
-* Custom measurement unit support (cm, m, km, etc.)
+* Input validation and error handling
 * Pure Python implementation with no external dependencies
 
 ## Supported Shapes
